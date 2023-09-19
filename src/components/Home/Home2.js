@@ -4,8 +4,7 @@ import myImg from "../../Assets/12.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineBehance,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Home3 from "./Home3";
@@ -64,7 +63,7 @@ function Home2() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/soumyajit4419"
+                    href="https://github.com/MilindiSenevirathne"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -74,32 +73,22 @@ function Home2() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://www.behance.net/milindisenevir"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    <AiOutlineTwitter />
+                    <AiOutlineBehance />
                   </a>
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/soumyajit4419/"
+                    href="https://www.linkedin.com/in/milindi-senevirathne/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
                     <FaLinkedinIn />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.instagram.com/soumyajit4419"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    <AiFillInstagram />
                   </a>
                 </li>
               </ul>

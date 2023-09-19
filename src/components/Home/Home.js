@@ -34,7 +34,7 @@ function Home() {
               <div
                 style={{
                   width: "80%", 
-                  paddingBottom: "0%", 
+                  paddingBottom: "00%", 
                   borderRadius: "50%",
                   overflow: "hidden",
                   marginLeft: "10%"

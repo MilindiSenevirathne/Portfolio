@@ -13,6 +13,13 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        <div style={{paddingBottom:"20px"}}>
+        {props.technologies?.map((item)=>{
+          return(
+            <Button variant="outline" style={{color:"#fff", borderRadius:"30px", borderWidth: "1px", borderColor:"#70f0df", fontSize:"12px", marginLeft:"5px"}}>{item}</Button>
+          )
+        })}
+        </div>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
