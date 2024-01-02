@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/12.jpg";
+import myImg from "../../Assets/5.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -28,9 +28,9 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                My field of Interest's are building new &nbsp;
+                My field of Interest's are building &nbsp;
                 <i>
-                  <b className="purple">Web Technologies and Products </b>
+                  <b className="purple">Web Applications and Mobile Applications </b>
                 </i>
                 <br />
                 <br />

@@ -6,6 +6,9 @@ import {
   SiFigma,
   SiAndroidstudio,
   SiWindows11,
+  SiTrello,
+  SiJira,
+  SiAzuredevops
 } from "react-icons/si";
 
 function Toolstack() {
@@ -30,6 +33,18 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
         <p style={{fontSize:"15px", color:"#70f0df"}}>Android Studio</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>Trello</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>Jira</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAzuredevops />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>Azure DevOps</p>
       </Col>
     </Row>
   );

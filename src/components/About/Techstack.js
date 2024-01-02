@@ -1,15 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiMongodb,
+  DiMsqlServer,
   DiPython,
   DiGit,
   DiJava,
   DiAndroid,
-  DiMysql
+  DiMysql,
+  DiHtml5,
+  DiCss3
 } from "react-icons/di";
 import {
   SiSpringboot
@@ -19,28 +20,36 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-        <p style={{fontSize:"15px", color:"#70f0df"}}>C++</p>
+        <DiHtml5 />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>HTML5</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <p style={{fontSize:"15px", color:"#70f0df"}}>JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>React</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot />
         <p style={{fontSize:"15px", color:"#70f0df"}}>Spring Boot</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <p style={{fontSize:"15px", color:"#70f0df"}}>React</p>
+        <DiJava />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>Java</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid />
         <p style={{fontSize:"15px", color:"#70f0df"}}>Android</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <p style={{fontSize:"15px", color:"#70f0df"}}>MongoDB</p>
+        <DiMsqlServer />
+        <p style={{fontSize:"15px", color:"#70f0df"}}>MSSQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
@@ -54,10 +63,7 @@ function Techstack() {
         <DiPython />
         <p style={{fontSize:"15px", color:"#70f0df"}}>Python</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-        <p style={{fontSize:"15px", color:"#70f0df"}}>Java</p>
-      </Col>
+      
     </Row>
   );
 }

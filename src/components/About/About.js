@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/2.jpg";
+import laptopImg from "../../Assets/13.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -29,45 +29,29 @@ function About() {
           <Col
             md={5}
             style={{
-              paddingTop: "120px",
-              paddingBottom: "50px",
-              perspective: "1000px", // Set a perspective for 3D effect
+              paddingTop: "80px",
+              paddingBottom: "30px",
             }}
             className="about-img"
           >
             <div
               style={{
                 width: "100%",
-                height: "0",
-                paddingBottom: "65%", // Maintain aspect ratio (adjust as needed)
-                position: "relative",
-                transformStyle: "preserve-3d", // Enable 3D transformations
+                height: "auto", // Set height to auto for normal sizing
               }}
             >
-              <div
+              <img
+                src={laptopImg}
+                alt="about"
+                className="img-fluid"
                 style={{
                   width: "100%",
-                  height: "100%",
-                  position: "absolute",
-                  top: "0",
-                  left: "0",
-                  transform: "rotateX(20deg)", // Adjust the tilt angle (e.g., 30deg)
-                  transformOrigin: "center bottom", // Pivot point at the bottom center
+                  borderRadius: "30px",
                 }}
-              >
-                <img
-                  src={laptopImg}
-                  alt="about"
-                  className="img-fluid"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    borderRadius: "30px",
-                  }}
-                />
-              </div>
+              />
             </div>
           </Col>
+
 
         </Row>
         <h1 className="project-heading">
